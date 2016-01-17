@@ -1,3 +1,13 @@
-<h2 id="title">Welcome to Ember</h2>
+<section class="container">
+    <h1 id="title">Welcome to Chase's Test Ember Project</h1>
 
-{{outlet}}
+    <ul class="nav nav-pills">
+        <li role="presentation">{{#link-to "index" class=""}}Home{{/link-to}}</li>
+        <li role="presentation">{{#link-to "about" class=""}}About{{/link-to}}</li>
+        <li role="presentation">{{#link-to "to-do" class=""}}To-Do{{/link-to}}</li>
+    </ul>
+
+    <div>
+        {{outlet}}
+    </div>
+</section>
